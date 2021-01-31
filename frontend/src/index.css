@@ -1,0 +1,124 @@
+body {
+  text-transform: lowercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.logo {
+  border-radius: 50px;
+}
+
+.img-card {
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-blog-update {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.cat-tag-list {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.input-photo {
+  cursor: pointer;
+}
+
+#nprogress .bar {
+  height: 6px !important;
+  background: red !important;
+}
+
+.ql-editor {
+  min-height: 300px;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.contentDiv img {
+  width: 100%;
+  padding: 1px;
+  object-fit: cover;
+}
+.contentDiv pre {
+  background-color: lightgray !important;
+  padding: 15px;
+  text-align: left !important;
+}
+
+.imgSmallCard {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.568);
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.781);
+  text-decoration: none;
+}
+
+hr {
+  background-color: white;
+}
+
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(./blogplatforma404.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
